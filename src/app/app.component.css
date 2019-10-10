@@ -1,0 +1,12 @@
+.content {
+  display: flex;
+  background-color: #4564e1;
+  color: white;
+  margin: 0;
+}
+.container.mainContent {
+  padding-top: 20px;
+}
+.appAboutContent {
+  background-color: #f8f7fc;
+}

@@ -1,0 +1,23 @@
+.contentSections {
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  width: 800px;
+  height: 700px;
+  background-color: #f3f4f8;
+  margin-top: 5px;
+}
+
+i#dashboardIcon {
+  color: #3b85e7;
+  font-size: 1.2em;
+}
+
+a.contentSections:active {
+  font-weight: bold;
+}
+hr#new1 {
+  border-top: 2px solid white;
+}

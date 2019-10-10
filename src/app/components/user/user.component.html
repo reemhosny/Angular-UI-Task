@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="userInfo">
+    <img [src]="user.image" alt="" class="userImg" />
+    <div class="userName">{{ user.firstName }} {{ user.lastName }}</div>
+    <p class="userJob">
+      {{ user.job }}
+    </p>
+    <p class="userAddress">
+      <i class="fa fa-map-marker" aria-hidden="true"></i>
+      {{ user.address.state }}
+    </p>
+    <a class="profile" href="#"
+      ><div class="editProfile">Edit Your Profile</div></a
+    >
+  </div>
+</div>

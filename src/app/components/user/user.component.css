@@ -1,0 +1,39 @@
+.container {
+  justify-content: center;
+}
+.userInfo {
+  text-align: center;
+}
+img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.userName {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.userJob {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.userAddress {
+  margin-top: 40px;
+}
+
+.profile {
+  text-decoration: none;
+}
+.editProfile {
+  background-color: #25a1ec;
+  text-align: center;
+  border-radius: 25px;
+  color: white;
+  line-height: 50px;
+  margin-top: 25px;
+  margin-bottom: 60px;
+}

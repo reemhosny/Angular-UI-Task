@@ -1,0 +1,54 @@
+<div class="about">
+  <h2 class="userAbout">About</h2>
+  <p class="userAboutContent">
+    {{ user.about }}
+  </p>
+  <div class="support">
+    <div class="row">
+      <div class="col-sm">
+        <a class="supportContent" href="#">
+          <!-- <img class="aboutImg" src="./assets/images/teams.jpg" /> -->
+          <i class="fa fa-users" aria-hidden="true"></i><br />
+          <span class="aboutLinks">Teams</span></a
+        >
+      </div>
+      <div class="col-sm">
+        <a class="supportContent" href="#">
+          <!-- <img class="aboutImg" src="./assets/images/awards.jpg" /> -->
+          <i class="fa fa-trophy" aria-hidden="true"></i><br />
+          <span class="aboutLinks">Awards</span></a
+        >
+      </div>
+    </div>
+    <div class="row social">
+      <div class=" social-links">
+        <a href="#">
+          <i class="fa fa-facebook" id="socialIcon" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div class="social-links">
+        <a href="#">
+          <i class="fa fa-tumblr" id="socialIcon" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div class="social-links">
+        <a href="#"
+          ><i class="fa fa-linkedin" id="socialIcon" aria-hidden="true"></i
+        ></a>
+      </div>
+      <div class="social-links">
+        <a href="#">
+          <i class="fa fa-twitter" id="socialIcon" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div class="social-links">
+        <a href="#"
+          ><i class="fa fa-google-plus" id="socialIcon" aria-hidden="true"></i
+        ></a>
+      </div>
+    </div>
+  </div>
+  <div class="date">
+    MEMBER SINCE {{ user.date.month }} {{ user.date.day }}, {{ user.date.year }}
+  </div>
+</div>

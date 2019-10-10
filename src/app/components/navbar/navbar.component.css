@@ -1,0 +1,46 @@
+.navbar-brand {
+  font-size: 30px;
+}
+.logo {
+  margin-right: 6px;
+  width: 60px;
+  line-height: 30px;
+}
+img {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+.verify {
+  background-color: #32a0f4;
+  color: white;
+  width: 150px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 25px;
+}
+img.verifyImg {
+  width: 40px;
+  height: 30px;
+}
+a img .downArrow {
+  width: 10px !important;
+}
+.userdropdown {
+  font-weight: bold;
+}
+
+.navIcon {
+  padding-top: 7px;
+}
+
+#fontAwesomIcon {
+  color: #c1c2c0;
+  font-size: 1.5em;
+}
+
+img#downArrow {
+  color: #c1c2c0;
+  font-size: 1.5em;
+}

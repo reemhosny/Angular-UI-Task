@@ -1,0 +1,49 @@
+.about {
+  color: #f9f7fd;
+  border: 0px;
+}
+.userAbout {
+  font-weight: bold;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.userAboutContent {
+  color: gray;
+  margin-bottom: 30px;
+}
+
+.aboutLinks {
+  font-weight: bold;
+}
+
+.supportContent {
+  color: black;
+}
+
+a.supportContent {
+  text-decoration: none;
+}
+
+.row.social {
+  margin-top: 20px;
+}
+.social-links {
+  background-color: #4fa9db;
+  color: white;
+  border-radius: 50%;
+  margin: 5px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+#socialIcon {
+  color: white;
+}
+.date {
+  color: black;
+  margin: 50px auto;
+  font-size: 13px;
+}

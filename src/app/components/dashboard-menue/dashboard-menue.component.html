@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="row">
+    <div class="content" *ngFor="let content of contents">
+      <div class="title">
+        <span class="text">{{ content.Name }}</span>
+        <i class="fa fa-pencil" aria-hidden="true"></i>
+      </div>
+      <div class="subMenue">
+        <div class="container">
+          <div class="row">
+            <span class="contentPer">{{ content.Percentage }}%</span>
+
+            <div class="center">
+              <div class="progressPlus">
+                <img src="./assets/images/done.jpg" alt="" />{{ content.Name }}
+                DONE
+              </div>
+              <div class="progressMun">
+                <img src="./assets/images/alert.jpg" alt="" />
+                {{ content.pending }} PENDING
+              </div>
+            </div>
+
+            <div class="menueNumber">
+              <span class="totalNumber">{{ content.totalNumber }}</span>
+              <br />
+              <span class="total">TOTAL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
