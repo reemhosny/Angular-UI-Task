@@ -4,14 +4,35 @@
 .user {
   padding-right: 50px;
 }
+
+.user-border {
+  width: 200px;
+  line-height: 200px;
+  margin: auto;
+  padding: 2px;
+  border-radius: 50%;
+  border: 1px solid #ffffff6b;
+}
 .userInfo {
   padding-top: 10px;
   text-align: center;
 }
-img {
+img.userImg {
   border-radius: 50%;
-  height: 150px;
-  width: 150px;
+  height: 180px;
+  width: 180px;
+}
+.user-verify {
+  border-radius: 50%;
+  background-color: #4564e1;
+  width: 40px;
+  line-height: 40px;
+  margin-top: -32px;
+  margin-left: 140px;
+}
+
+.verifyImgUser {
+  width: 30px;
 }
 
 .userName {
