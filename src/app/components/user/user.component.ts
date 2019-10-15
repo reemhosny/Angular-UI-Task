@@ -20,7 +20,8 @@ export class UserComponent implements OnInit {
         city: "cairo",
         state: "Egypt"
       },
-      image: "http://lorempixel.com/600/600/people/6",
+      // image: "http://lorempixel.com/600/600/people/6",
+      image: "./assets/images/user.jpeg",
       about:
         "I'am reem hosny working as software engineer, I love reading, my family, searching",
       job: " Software Engineer ",

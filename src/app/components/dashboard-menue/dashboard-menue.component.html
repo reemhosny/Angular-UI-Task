@@ -1,6 +1,6 @@
 <div class="container">
   <div class="row">
-    <div class="content" *ngFor="let content of contents">
+    <div class="content " *ngFor="let content of contents">
       <div class="title">
         <span class="text">{{ content.Name }}</span>
         <i class="fa fa-pencil" aria-hidden="true"></i>
@@ -9,13 +9,6 @@
         <div class="container">
           <div class="row">
             <div class="contentPer">{{ content.Percentage }}%</div>
-            <!-- <span class="fa-stack fa-3x">
-              <i class="fa fa-spinner fa-stack-2x"></i>
-              <strong class="fa-stack-1x">{{ content.Percentage }}%</strong>
-            </span> -->
-            <!-- <span class="contentPer">%</span> -->
-
-            <!-- <div class="center"> -->
             <div class="progressPlus">
               <i class="fa fa-check-circle" id="done" aria-hidden="true"></i
               >{{ content.Name }}

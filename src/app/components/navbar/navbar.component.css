@@ -28,6 +28,10 @@ img.verifyImg {
 a img .downArrow {
   width: 10px !important;
 }
+
+.nav-drop {
+  padding-top: 15px;
+}
 .userdropdown {
   font-weight: bold;
 }
@@ -37,14 +41,26 @@ a img .downArrow {
   margin: 5px;
 }
 
-#fontAwesomIcon {
+.fontAwesomIcon {
   color: darkgray;
   font-size: 1.5em;
+  padding-top: 15px;
 }
 
 img#downArrow {
   color: darkgray;
   font-size: 1.5em;
+}
+
+.notification-color {
+  border-radius: 50%;
+  background-color: #32a0f4;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+  margin-top: -40px;
+  margin-left: 10px;
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {

@@ -2,7 +2,7 @@
   display: flex;
   background-color: #4564e1;
   color: white;
-  margin: 0;
+  margin-top: 10px;
 }
 .container.mainContent {
   padding-top: 20px;

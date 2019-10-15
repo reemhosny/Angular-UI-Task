@@ -13,7 +13,7 @@ export class NavbarComponent implements OnInit {
   ngOnInit() {
     this.user = {
       firstName: "Reem",
-      image: "http://lorempixel.com/600/600/people/6"
+      image: "./assets/images/user.jpeg"
     };
   }
 }

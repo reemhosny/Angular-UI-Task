@@ -1,10 +1,13 @@
+.home-content {
+  padding-top: 20px;
+}
 .contentSections {
   color: white;
   text-decoration: none;
 }
 
 .dropdown-menu {
-  width: 840px;
+  width: 900px;
   height: 640px;
   background-color: #f3f4f8;
   margin-top: 5px;
@@ -29,6 +32,8 @@ i.fa.fa-tachometer.dashboardIcon {
 a.contentSections:active {
   font-weight: bold;
 }
-hr#new1 {
+
+.new1 {
+  margin-right: 20px;
   border-top: 2px solid white;
 }
