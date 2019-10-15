@@ -1,6 +1,9 @@
 .container {
   justify-content: center;
 }
+.user {
+  padding-right: 50px;
+}
 .userInfo {
   text-align: center;
 }

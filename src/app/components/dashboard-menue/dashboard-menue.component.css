@@ -5,21 +5,28 @@
 }
 
 .content {
-  width: 300px;
-  margin-left: 60px;
-  margin-top: 20px;
+  margin-left: 40px;
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 
 .subMenue {
-  background-color: #51c6d6;
-  color: white;
-  border-radius: 10px;
-  height: 200px;
+  width: 350px;
+  height: 150px;
   position: relative;
   text-align: center;
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 10px;
+}
+
+#pending {
+  width: 40px;
+  color: red;
 }
 .menueNumber {
+  width: 20px;
+  margin: 2px;
   position: absolute;
   text-align: center;
   top: 10px;
@@ -30,6 +37,7 @@
 }
 .total {
   font-size: 10px;
+  float: left;
 }
 .text {
   margin-right: 15px;
@@ -38,12 +46,16 @@
 
 .contentPer {
   display: inline-block;
-  width: 50px;
+  width: 70px;
+  line-height: 70px;
   position: absolute;
   text-align: center;
-  top: 80px;
+  top: 40px;
   left: 20px;
   font-size: 20px;
+  border-radius: 50%;
+  border-right: 1px solid white;
+  border-left: 3px solid white;
 }
 
 .center {
@@ -51,16 +63,25 @@
 }
 
 .progressPlus {
-  display: inline-block;
+  /* display: inline-block; */
+  /* float: left;
+  clear: left; */
   width: 200px;
   margin-left: 60px;
   margin-top: 50px;
   font-size: 15px;
 }
 
+#done {
+  width: 40px;
+  margin: auto;
+}
+
 .progressMun {
-  display: inline-block;
+  /* display: inline-block; */
   width: 200px;
+  /* float: left;
+  clear: left; */
   margin-left: 50px;
   margin-top: 5px;
 }

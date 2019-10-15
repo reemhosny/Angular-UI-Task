@@ -8,22 +8,31 @@
       <div class="subMenue">
         <div class="container">
           <div class="row">
-            <span class="contentPer">{{ content.Percentage }}%</span>
+            <div class="contentPer">{{ content.Percentage }}%</div>
+            <!-- <span class="fa-stack fa-3x">
+              <i class="fa fa-spinner fa-stack-2x"></i>
+              <strong class="fa-stack-1x">{{ content.Percentage }}%</strong>
+            </span> -->
+            <!-- <span class="contentPer">%</span> -->
 
-            <div class="center">
-              <div class="progressPlus">
-                <img src="./assets/images/done.jpg" alt="" />{{ content.Name }}
-                DONE
-              </div>
-              <div class="progressMun">
-                <img src="./assets/images/alert.jpg" alt="" />
-                {{ content.pending }} PENDING
-              </div>
+            <!-- <div class="center"> -->
+            <div class="progressPlus">
+              <i class="fa fa-check-circle" id="done" aria-hidden="true"></i
+              >{{ content.Name }}
+              DONE
             </div>
+            <div class="progressMun">
+              <i
+                class="fa fa-exclamation-circle"
+                id="pending"
+                aria-hidden="true"
+              ></i>
+              {{ content.pending }} PENDING
+            </div>
+            <!-- </div> -->
 
             <div class="menueNumber">
               <span class="totalNumber">{{ content.totalNumber }}</span>
-              <br />
               <span class="total">TOTAL</span>
             </div>
           </div>
