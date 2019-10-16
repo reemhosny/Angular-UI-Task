@@ -81,3 +81,21 @@ img.userImg {
     width: 200px;
   }
 }
+
+@media only screen and (min-width: 1551px) {
+  .userName {
+    width: auto;
+  }
+  .userJob {
+    width: auto;
+  }
+  .userAddress {
+    width: auto;
+  }
+  .profile {
+    width: auto;
+  }
+  .editProfile {
+    width: auto;
+  }
+}
