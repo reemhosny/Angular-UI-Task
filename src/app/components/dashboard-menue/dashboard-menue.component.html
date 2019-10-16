@@ -9,20 +9,22 @@
         <div class="container">
           <div class="row">
             <div class="contentPer">{{ content.Percentage }}%</div>
-            <div class="progressPlus">
-              <i class="fa fa-check-circle" id="done" aria-hidden="true"></i
-              >{{ content.Name }}
-              DONE
+            <div class="sub-center">
+              <div class="col-sm">
+                <i class="fa fa-check-circle" id="done" aria-hidden="true"></i>
+                <span class="content-name">{{ content.Name }} DONE</span>
+              </div>
+              <div class="col-sm">
+                <i
+                  class="fa fa-exclamation-circle"
+                  id="pending"
+                  aria-hidden="true"
+                ></i>
+                <span class="span content-name">
+                  {{ content.pending }} PENDING
+                </span>
+              </div>
             </div>
-            <div class="progressMun">
-              <i
-                class="fa fa-exclamation-circle"
-                id="pending"
-                aria-hidden="true"
-              ></i>
-              {{ content.pending }} PENDING
-            </div>
-            <!-- </div> -->
 
             <div class="menueNumber">
               <span class="totalNumber">{{ content.totalNumber }}</span>
