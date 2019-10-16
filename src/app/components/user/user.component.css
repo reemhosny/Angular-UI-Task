@@ -84,7 +84,7 @@ img.userImg {
   }
 }
 
-@media screen and (min-width: 999px) {
+@media screen and (min-width: 800px) {
   .user {
     margin-left: 0px;
   }
