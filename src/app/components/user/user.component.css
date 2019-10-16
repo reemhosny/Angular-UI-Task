@@ -82,6 +82,28 @@ img.userImg {
   }
 }
 
+@media screen and (min-width: 999px) {
+  .user {
+    margin-left: 0px;
+  }
+  .userName {
+    width: 200px;
+    font-size: 20px;
+  }
+  .userJob {
+    width: 200px;
+  }
+  .userAddress {
+    width: 200px;
+  }
+  .profile {
+    width: 200px;
+  }
+  .editProfile {
+    width: 200px;
+  }
+}
+
 @media only screen and (min-width: 1300px) {
   .userInfo {
     margin-left: 100px;
