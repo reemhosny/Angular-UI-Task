@@ -68,6 +68,7 @@ i.fa.fa-tachometer.dashboardIcon {
 @media screen and (min-width: 760px) {
   .sub-content {
     margin-left: 70px;
+    padding-right: 50px;
   }
   /* .dropdown-menu {
     width: 450px;
