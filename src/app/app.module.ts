@@ -6,6 +6,7 @@ import { AppComponent } from "./app.component";
 import { UserComponent } from "./components/user/user.component";
 import { NavbarComponent } from "./components/navbar/navbar.component";
 import { AngularFontAwesomeModule } from "angular-font-awesome";
+import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 import { ContentComponent } from "./components/content/content.component";
 import { AboutComponent } from "./components/about/about.component";
 import { FooterComponent } from "./components/footer/footer.component";
@@ -21,7 +22,12 @@ import { DashboardMenueComponent } from "./components/dashboard-menue/dashboard-
     FooterComponent,
     DashboardMenueComponent
   ],
-  imports: [BrowserModule, AppRoutingModule, AngularFontAwesomeModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    AngularFontAwesomeModule,
+    FontAwesomeModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

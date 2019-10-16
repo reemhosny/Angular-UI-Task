@@ -23,11 +23,13 @@ img.userImg {
   width: 180px;
 }
 .user-verify {
+  position: absolute;
   border-radius: 50%;
-  background-color: #4564e1;
+  background-color: white;
+  border: 4px solid #4564e1;
   width: 40px;
   line-height: 40px;
-  margin-top: -32px;
+  margin-top: -50px;
   margin-left: 140px;
 }
 
