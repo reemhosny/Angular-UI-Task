@@ -33,7 +33,7 @@ export class DashboardMenueComponent implements OnInit {
         Name: "Work",
         Percentage: 54,
         Done: 5,
-        totalNumber: 12,
+        totalNumber: 9,
         pending: 2
       },
       {
