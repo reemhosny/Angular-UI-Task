@@ -32,8 +32,17 @@ a img .downArrow {
 .nav-drop {
   padding-top: 15px;
 }
+
 .userdropdown {
   font-weight: bold;
+}
+.dropdown-nav {
+  padding-top: 20px;
+}
+
+.dropdown-icon {
+  color: #e0e0e0;
+  margin-left: 10px;
 }
 
 .navIcon {
@@ -42,17 +51,18 @@ a img .downArrow {
 }
 
 .fontAwesomIcon {
-  color: darkgray;
+  color: #e0e0e0;
   font-size: 1.5em;
   padding-top: 15px;
 }
-
+/* 
 img#downArrow {
-  color: darkgray;
+  color: e0e0e0 !important;
   font-size: 1.5em;
-}
+} */
 
 .notification-color {
+  position: absolute;
   border-radius: 50%;
   background-color: #32a0f4;
   text-align: center;
