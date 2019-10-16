@@ -1,9 +1,14 @@
-#footer {
-  background-color: #fefeff;
-  border: 0px;
-  margin-left: 30px;
+.footer {
+  margin-left: 20px;
+  margin-right: -90px;
+  margin-top: 5px;
+  color: gray;
 }
 .footerText {
+  text-decoration: none;
   color: gray;
-  font-weight: 25p;
+}
+.footer-line {
+  margin-top: 7px;
+  color: gray;
 }
