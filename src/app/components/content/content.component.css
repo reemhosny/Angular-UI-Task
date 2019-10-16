@@ -23,8 +23,8 @@
 }
 
 .dropdown-menu {
-  width: 900px;
-  height: 640px;
+  width: auto;
+  height: auto;
   background-color: #f3f4f8;
   margin-top: 5px;
   margin-left: 12px;
@@ -63,4 +63,14 @@ i.fa.fa-tachometer.dashboardIcon {
   .dashboardIcon {
     color: #3b85e7 !important;
   }
+}
+
+@media screen and (min-width: 760px) {
+  .sub-content {
+    margin-left: 70px;
+  }
+  /* .dropdown-menu {
+    width: 450px;
+    height: 1200px;
+  } */
 }
