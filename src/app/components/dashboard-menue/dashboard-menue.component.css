@@ -13,6 +13,10 @@
   width: 40px;
 } */
 
+.smallCenter {
+  margin-top: 45px;
+}
+
 .subMenue {
   width: 350px;
   height: 150px;
@@ -24,19 +28,33 @@
   background-repeat: no-repeat, repeat;
 }
 
+.subMenueCenter {
+  width: 150px;
+  line-height: 30px;
+  float: left;
+}
+.content-name {
+  font-size: 12px;
+}
+.content-done {
+  font-size: 10px;
+}
+
 .menueNumber {
   width: 20px;
+  line-height: 27px;
   margin: 2px;
   position: absolute;
   text-align: center;
   top: 10px;
-  right: 15px;
+  right: 20px;
 }
 .totalNumber {
-  font-size: 20px;
+  font-size: 25px;
+  float: right;
 }
 .total {
-  font-size: 10px;
+  font-size: 12px;
   float: left;
 }
 .text {
