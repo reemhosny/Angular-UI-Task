@@ -29,12 +29,14 @@
 }
 
 .subMenueCenter {
-  width: 150px;
-  line-height: 30px;
-  float: left;
+  width: 200px;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-left: -10px;
 }
 .content-name {
-  font-size: 12px;
+  font-size: 15px;
+  font-weight: bold;
 }
 .content-done {
   font-size: 10px;
@@ -63,8 +65,8 @@
 
 .contentPer {
   display: inline-block;
-  width: 60px;
-  line-height: 60px;
+  width: 75px;
+  line-height: 75px;
   position: absolute;
   text-align: center;
   top: 40px;
@@ -78,6 +80,14 @@
 
 .center {
   position: relative;
+}
+
+.verifyImgUser {
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin: 5px;
 }
 
 .sub-center {
@@ -99,15 +109,15 @@
   }
 }
 
-@media screen and (min-width: 1000px) {
-  .subMenue {
-    width: 450px;
-  }
+@media screen and (min-width: 1200px) {
 }
 
 @media only screen and (min-width: 1551px) {
   .content {
     margin-left: 100px;
     margin-bottom: 20px;
+  }
+  .subMenue {
+    width: 450px;
   }
 }
