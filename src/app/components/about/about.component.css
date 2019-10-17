@@ -10,6 +10,14 @@
   margin-bottom: 20px;
 }
 
+.about-col {
+  margin-right: 20px;
+}
+
+.aboutColIcon {
+  color: gray;
+}
+
 .userAboutContent {
   color: gray;
   margin-bottom: 30px;
