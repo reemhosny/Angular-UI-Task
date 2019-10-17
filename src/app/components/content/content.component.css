@@ -76,7 +76,7 @@ i.fa.fa-tachometer.dashboardIcon {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1300px) {
   .sub-content {
     margin-left: 70px;
     padding-right: 30% !important;

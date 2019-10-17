@@ -18,7 +18,7 @@
 }
 
 .subMenue {
-  width: 450px;
+  width: 350px;
   height: 150px;
   position: relative;
   text-align: center;
@@ -27,7 +27,7 @@
   background-image: url("/assets/images/content.png");
   background-repeat: no-repeat, repeat;
   background-position: center;
-    background-size: cover;
+  background-size: cover;
 }
 
 .subMenueCenter {
@@ -105,11 +105,15 @@
   }
 }
 
+@media (min-width: 1400px) {
+  .subMenue {
+    width: 450px !important;
+  }
+}
+
 @media only screen and (min-width: 1551px) {
   .content {
     margin-left: 100px;
     margin-bottom: 20px;
   }
 }
-
- 

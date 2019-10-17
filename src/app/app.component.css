@@ -11,14 +11,11 @@
   background-color: #f8f7fc;
 }
 
-.col-md-9{
+/* .col-md-9{
   padding-right: 80px !important;
    
-}
+} */
 
-.container { 
- width: 100% !important;
- 
+.container {
+  width: 100% !important;
 }
-
- 
