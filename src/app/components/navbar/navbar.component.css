@@ -3,7 +3,6 @@
 }
 .logo {
   margin: 0px 6px 0px 40px;
-  /* margin-right: 6px; */
   width: 60px;
   line-height: 30px;
 }
@@ -55,11 +54,6 @@ a img .downArrow {
   font-size: 1.5em;
   padding-top: 15px;
 }
-/* 
-img#downArrow {
-  color: e0e0e0 !important;
-  font-size: 1.5em;
-} */
 
 .notification-color {
   position: absolute;
@@ -73,58 +67,6 @@ img#downArrow {
   margin-left: 10px;
 }
 
-/* @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
-} */
-
-/* .search-wrap {
-  position: relative;
-  width: 75%;
-}
-#searchIcon {
-  color: #e0e0e0;
-  font-size: 1.5em;
-  position: absolute;
-  top: 0px;
-}
-#searchIcon.hide {
-  display: none;
-}
-#search {
-  color: rgb(255, 255, 255);
-  background-color: rgb(101, 64, 160);
-  border: solid 3px rgb(247, 157, 210);
-  border-radius: 10px;
-  width: 0%;
-  font-size: 2.2em;
-  display: inline-block;
-  margin-top: 0.25em;
-  margin-left: 12.5%;
-  outline: none;
-  cursor: text;
-  visibility: hidden;
-  transition: 0.8s;
-}
-#search.visible {
-  width: 85%;
-  visibility: visible;
-}
-#clear {
-  width: 5%;
-  display: inline-block;
-  position: absolute;
-  right: 20px;
-  top: 22px;
-  opacity: 0;
-  transition: 1.8s;
-}
-#clear.visible {
-  opacity: 1;
-}
-#clear:hover {
-  cursor: pointer;
-} */
-
-/* @import url(https://fonts.googleapis.com/css?family=Lato:100, 300, 400, 700); */
 @import url(https://raw.github.com/FortAwesome/Font-Awesome/master/docs/assets/css/font-awesome.min.css);
 
 #wrap {
