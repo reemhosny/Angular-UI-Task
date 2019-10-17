@@ -18,7 +18,7 @@
 }
 
 .subMenue {
-  width: 350px;
+  width: 450px;
   height: 150px;
   position: relative;
   text-align: center;
@@ -26,17 +26,19 @@
   border-radius: 10px;
   background-image: url("/assets/images/content.png");
   background-repeat: no-repeat, repeat;
+  background-position: center;
+    background-size: cover;
 }
 
 .subMenueCenter {
-  width: 200px;
-  line-height: 20px;
-  margin-top: 10px;
-  margin-left: -10px;
+  float: left;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 2;
+  font-size: 16px;
 }
 .content-name {
   font-size: 15px;
-  font-weight: bold;
 }
 .content-done {
   font-size: 10px;
@@ -65,8 +67,8 @@
 
 .contentPer {
   display: inline-block;
-  width: 75px;
-  line-height: 75px;
+  width: 60px;
+  line-height: 60px;
   position: absolute;
   text-align: center;
   top: 40px;
@@ -76,18 +78,12 @@
   border: 2px solid #ffffff6b;
   border-left: 3px solid white;
   border-bottom: 3px solid white;
+  width: 75px;
+  height: 75px;
 }
 
 .center {
   position: relative;
-}
-
-.verifyImgUser {
-  width: 20px;
-  background-color: white;
-  border-radius: 50%;
-  border: 3px solid white;
-  margin: 5px;
 }
 
 .sub-center {
@@ -109,15 +105,11 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
-}
-
 @media only screen and (min-width: 1551px) {
   .content {
     margin-left: 100px;
     margin-bottom: 20px;
   }
-  .subMenue {
-    width: 450px;
-  }
 }
+
+ 
