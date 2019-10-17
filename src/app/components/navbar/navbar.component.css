@@ -57,6 +57,8 @@ a img .downArrow {
 
 .notification-color {
   position: absolute;
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
   background-color: #32a0f4;
   text-align: center;

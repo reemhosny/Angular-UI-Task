@@ -99,6 +99,12 @@
   }
 }
 
+@media screen and (min-width: 1000px) {
+  .subMenue {
+    width: 450px;
+  }
+}
+
 @media only screen and (min-width: 1551px) {
   .content {
     margin-left: 100px;
